@@ -12,7 +12,8 @@ function Landingscreen() {
         <div className='row landing justify-content-center'>
             <div className="col-md-9 my-auto text-center" style={{borderRight:'8px solid white'}}>
 
-                <h2 data-aos='zoom-in'style={{color: 'white' , fontSize:'120px'}}>DESHMUKH'S HOTEL</h2>
+            <h3 data-aos='zoom-in'style={{color: 'white' , fontSize:'30px'}}>AMOGH's</h3>
+                <h2 data-aos='zoom-in'style={{color: 'white' , fontSize:'120px'}}>DESHMUKH HOTEL</h2>
                 <h1 data-aos='zoom-out'style={{color: 'white'}}>Welcome !!Give us the opportunity to serve You..</h1>
 
                 <Link to='/home'>

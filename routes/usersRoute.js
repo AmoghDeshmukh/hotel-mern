@@ -10,7 +10,8 @@ router.post("/register", async(req, res) => {
    
     try{
         const rooms = await newuser.save()
-        res.send('User Registered Successfully')
+        res.send('User Registered Successfully');
+        res.redirect("/home");
     } catch (error) {
         return res.status(400).json({ error });
     }
